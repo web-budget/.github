@@ -5,7 +5,7 @@ and giving maximum visibility on what is happening.
 
 ### The project
 
-The project started as a desktop application writen in swing back in 2008, it evolved to a JSF version (until v3) (that are still available)[https://github.com/arthurgregorio/web-budget] and 
+The project started as a desktop application writen in swing back in 2008, it evolved to a JSF version (until v3) [that are still available](https://github.com/arthurgregorio/web-budget) and 
 is the last stable version. Now with the v4, the goal is to give a complete overhaul in the project to make it more modern also add more relevant features to it.
 
 To start that, we created a new organization to split the backend from frontend and also provide a better management for the project fetures.
@@ -22,10 +22,10 @@ could do better, the tecnologies changed a bit from the older version:
 
 ### Relevant links
 
-- (Site)[https://webbudget.com.br/]
-- (Latest release as docker image)[https://github.com/web-budget/docker]
-- (Release management board)[https://github.com/orgs/web-budget/projects/6]
-- (Older, but stable, version)[https://github.com/arthurgregorio/web-budget]
+- [Site](https://webbudget.com.br/)
+- [Latest release as docker image](https://github.com/web-budget/docker)
+- [Release management board](https://github.com/orgs/web-budget/projects/6)
+- [Older, but stable, version](https://github.com/arthurgregorio/web-budget)
 
 Do you want to contribute? Send an e-mail to contato@consusoft.com.br and lets have a chat about! 
 
