@@ -1,32 +1,31 @@
-## welcome to webBudget
+## webBudget: Simple, Open-Source Financial Management
 
-webBudget is a free and open-source application to manage your personal finances or even for small companies. It will provide basic financial management with simple and clear functionalities 
-and giving maximum visibility on what is happening. 
+webBudget is a free and open-source application designed to help individuals and small businesses manage their finances. It offers essential financial management tools with a simple, intuitive interface that provides maximum visibility into your financial activities.
 
-### The project
+### Project Overview
+The project began in 2008 as a desktop application built with Java Swing. It later evolved into a web-based application using JSF, with version 3 remaining the last stable release—still available here.
 
-The project started as a desktop application writen in swing back in 2008, it evolved to a JSF version (until v3) [that are still available](https://github.com/arthurgregorio/web-budget) and 
-is the last stable version. Now with the v4, the goal is to give a complete overhaul in the project to make it more modern also add more relevant features to it.
+With version 4, the project is undergoing a complete overhaul to modernize its architecture and introduce more powerful features. As part of this transformation, we've created a new GitHub organization to separate the backend from the frontend and to improve the management of project features and development.
 
-To start that, we created a new organization to split the backend from frontend and also provide a better management for the project fetures.
+### Technology Stack
+While previous versions of webBudget relied on JSF and PrimeFaces — which served us well for many years — we decided it was time to embrace a more modern and scalable technology stack. The new version is being rebuilt using:
 
-### The tecnologies
-
-Since the first web version from webBudget we are using the good old JSF with Primefaces, we could continue on that since the software doesn't required a fancy UI but given the scenario where we
-could do better, the tecnologies changed a bit from the older version:
-
-- Kotlin 1.9
+- Kotlin 2
 - Spring Boot 3
-- Nuxt 3
-- Postgres 15
+- VueJS 3
+- PostgreSQL 16
+
+This update allows us to deliver a better developer and user experience, while maintaining the simplicity and clarity that have always been at the heart of webBudget.
 
 ### Relevant links
 
 - [Site](https://webbudget.com.br/)
 - [Latest release as docker image](https://github.com/web-budget/docker)
 - [Release management board](https://github.com/orgs/web-budget/projects/6)
-- [Older, but stable, version](https://github.com/arthurgregorio/web-budget)
+- [Older, but stable version](https://github.com/arthurgregorio/web-budget)
 
-Do you want to contribute? Send an e-mail to contato@consusoft.com.br and lets have a chat about! 
+### Want to Contribute?
+We’d love to hear from you! If you’re interested in contributing to the project, send an email to contato@consusoft.com.br and let’s chat.
 
-Also, thanks for IntelliJ who provide a support to this project via a free licence of IntelliJ IDEA Ultimate.
+### Special Thanks
+A big thank you to JetBrains for supporting this project with a free license for IntelliJ IDEA Ultimate. Your tools make our development process faster and more enjoyable!
