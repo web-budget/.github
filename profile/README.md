@@ -3,7 +3,7 @@
 webBudget is a free and open-source application designed to help individuals and small businesses manage their finances. It offers essential financial management tools with a simple, intuitive interface that provides maximum visibility into your financial activities.
 
 ### Project Overview
-The project began in 2008 as a desktop application built with Java Swing. It later evolved into a web-based application using JSF, with version 3 remaining the last stable release—still available here.
+The project began in 2008 as a desktop application built with Java Swing. It later evolved into a web-based application using JSF, with version 3 remaining the last stable release — still available [here](https://github.com/arthurgregorio/web-budget).
 
 With version 4, the project is undergoing a complete overhaul to modernize its architecture and introduce more powerful features. As part of this transformation, we've created a new GitHub organization to separate the backend from the frontend and to improve the management of project features and development.
 
