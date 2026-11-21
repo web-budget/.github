@@ -25,6 +25,7 @@ A versão 4 está em fase `alpha`. As versões `alpha` **não geram release nem 
 
 - [Site](https://webbudget.com.br/)
 - [Código da versão 4 (monorepo)](https://github.com/web-budget/monorepo)
+- [Documentação (wiki)](https://github.com/web-budget/monorepo/wiki)
 - [Como compilar a partir do código-fonte](https://github.com/web-budget/monorepo/wiki/Compilar-do-codigo-fonte)
 - [Quadro de planejamento da versão 4](https://github.com/orgs/web-budget/projects/7)
 - [Versão 3, antiga e estável](https://github.com/arthurgregorio/web-budget)
