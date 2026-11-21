@@ -19,13 +19,13 @@ Das versões anteriores, que usavam JSF e PrimeFaces e nos serviram bem por muit
 
 ### Versões e pré-lançamentos
 
-A versão 4 está em fase `alpha`. As versões `alpha` **não geram release nem imagem Docker**: quem quiser experimentá-las compila o código, seguindo o guia [Compilar a partir do código-fonte](https://github.com/web-budget/monorepo/blob/main/docs/compilar-do-codigo-fonte.md). Para um uso estável, a versão 3 continua sendo a indicada.
+A versão 4 está em fase `alpha`. As versões `alpha` **não geram release nem imagem Docker**: quem quiser experimentá-las compila o código, seguindo o guia [Compilar a partir do código-fonte](https://github.com/web-budget/monorepo/wiki/Compilar-do-codigo-fonte). Para um uso estável, a versão 3 continua sendo a indicada.
 
 ### Links
 
 - [Site](https://webbudget.com.br/)
 - [Código da versão 4 (monorepo)](https://github.com/web-budget/monorepo)
-- [Como compilar a partir do código-fonte](https://github.com/web-budget/monorepo/blob/main/docs/compilar-do-codigo-fonte.md)
+- [Como compilar a partir do código-fonte](https://github.com/web-budget/monorepo/wiki/Compilar-do-codigo-fonte)
 - [Quadro de planejamento da versão 4](https://github.com/orgs/web-budget/projects/7)
 - [Versão 3, antiga e estável](https://github.com/arthurgregorio/web-budget)
 
