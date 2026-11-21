@@ -1,31 +1,38 @@
-## webBudget: Simple, Open-Source Financial Management
+## webBudget: controle financeiro simples, livre e de código aberto
 
-webBudget is a free and open-source application designed to help individuals and small businesses manage their finances. It offers essential financial management tools with a simple, intuitive interface that provides maximum visibility into your financial activities.
+O webBudget é um sistema livre e de código aberto para você organizar as suas finanças pessoais ou as de um pequeno negócio. Ele reúne as ferramentas essenciais do controle financeiro numa interface simples e direta, que dá a maior visibilidade possível sobre o seu dinheiro.
 
-### Project Overview
-The project began in 2008 as a desktop application built with Java Swing. It later evolved into a web-based application using JSF, with version 3 remaining the last stable release — still available [here](https://github.com/arthurgregorio/web-budget).
+### Sobre o projeto
 
-With version 4, the project is undergoing a complete overhaul to modernize its architecture and introduce more powerful features. As part of this transformation, we've created a new GitHub organization to separate the backend from the frontend and to improve the management of project features and development.
+O projeto nasceu em 2008 como uma aplicação desktop em Java Swing. Depois evoluiu para uma aplicação web em JSF, e a versão 3 é a última versão estável, que continua disponível [aqui](https://github.com/arthurgregorio/web-budget).
 
-### Technology Stack
-While previous versions of webBudget relied on JSF and PrimeFaces — which served us well for many years — we decided it was time to embrace a more modern and scalable technology stack. The new version is being rebuilt using:
+A versão 4 é uma reconstrução completa, que atualiza a arquitetura e abre espaço para recursos novos. Na primeira fase, ela foi desenvolvida em dois repositórios, `back-end` e `front-end`, que hoje estão arquivados. O desenvolvimento agora acontece num único **monorepo**, o [web-budget/monorepo](https://github.com/web-budget/monorepo), com o server e o client lado a lado.
 
-- Kotlin 2
-- Spring Boot 3
-- VueJS 3
-- PostgreSQL 16
+### Tecnologias
 
-This update allows us to deliver a better developer and user experience, while maintaining the simplicity and clarity that have always been at the heart of webBudget.
+Das versões anteriores, que usavam JSF e PrimeFaces e nos serviram bem por muitos anos, ficou a simplicidade. A versão 4 está sendo reconstruída com uma pilha mais moderna:
 
-### Relevant links
+- Kotlin e Spring Boot 4
+- jOOQ e Liquibase
+- Vue 3 e TypeScript
+- PostgreSQL 18
+
+### Versões e pré-lançamentos
+
+A versão 4 está em fase `alpha`. As versões `alpha` **não geram release nem imagem Docker**: quem quiser experimentá-las compila o código, seguindo o guia [Compilar a partir do código-fonte](https://github.com/web-budget/monorepo/blob/main/docs/compilar-do-codigo-fonte.md). Para um uso estável, a versão 3 continua sendo a indicada.
+
+### Links
 
 - [Site](https://webbudget.com.br/)
-- [Latest release as docker image](https://github.com/web-budget/docker)
-- [Release management board](https://github.com/orgs/web-budget/projects/6)
-- [Older, but stable version](https://github.com/arthurgregorio/web-budget)
+- [Código da versão 4 (monorepo)](https://github.com/web-budget/monorepo)
+- [Como compilar a partir do código-fonte](https://github.com/web-budget/monorepo/blob/main/docs/compilar-do-codigo-fonte.md)
+- [Quadro de planejamento da versão 4](https://github.com/orgs/web-budget/projects/7)
+- [Versão 3, antiga e estável](https://github.com/arthurgregorio/web-budget)
 
-### Want to Contribute?
-We’d love to hear from you! If you’re interested in contributing to the project, send an email to contato@consusoft.com.br and let’s chat.
+### Quer contribuir?
 
-### Special Thanks
-A big thank you to JetBrains for supporting this project with a free license for IntelliJ IDEA Ultimate. Your tools make our development process faster and more enjoyable!
+Adoraríamos ouvir você! Se tem interesse em contribuir com o projeto, escreva para contato@consusoft.com.br e vamos conversar.
+
+### Agradecimento especial
+
+Um grande obrigado à JetBrains por apoiar este projeto com uma licença gratuita do IntelliJ IDEA Ultimate. As ferramentas de vocês tornam o nosso desenvolvimento mais rápido e mais agradável!
